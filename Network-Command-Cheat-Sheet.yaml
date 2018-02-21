@@ -1,0 +1,9 @@
+---
+vendor:
+  Cisco:
+    - command: "show interface brief"
+      description: "Show a limited amount of information about all interfaces"
+  Arista:
+  HPE:
+  Juniper:
+  Palo Alto Networks:
