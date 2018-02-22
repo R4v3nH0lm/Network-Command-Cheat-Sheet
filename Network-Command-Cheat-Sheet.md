@@ -6,9 +6,7 @@
 
 | Make | Cmd |
 |:----:|-----|
-
 | cisco | enable |
-
 | hpe | system-view |
 
 | Command       |
@@ -18,7 +16,5 @@
 
 | Make | Cmd |
 |:----:|-----|
-
 | cisco | conf t |
-
 | hpe | system-view |
