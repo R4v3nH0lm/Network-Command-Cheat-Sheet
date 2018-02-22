@@ -1,9 +1,9 @@
-# H1 Network-Command-Cheat-Sheet
+# Network-Command-Cheat-Sheet
 
-## H2 cisco 
+## cisco 
 
-## H2 hpe 
+## hpe 
 
-## H2 palo alto networks 
+## palo alto networks 
 
 
