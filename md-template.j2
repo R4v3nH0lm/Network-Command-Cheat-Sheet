@@ -1,0 +1,15 @@
+{% for key, value in commands.iteritems() %}
+{% if 'desc' in value %}
+
+| Command       |
+| ------------- |
+- {{ key }}
+- description: {{ value['desc'] }}
+
+{% for s in value['make'] %}
+| Make | Cmd |
+|:----:|-----|
+| {{ s }} | {{ value['make'][s] }} |
+{% endfor %}
+{% endif %}
+{% endfor %}

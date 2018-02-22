@@ -1,9 +1,12 @@
 ---
-vendor:
-  Cisco:
-    - command: "show interface brief"
-      description: "Show a limited amount of information about all interfaces"
-  Arista:
-  HPE:
-  Juniper:
-  Palo Alto Networks:*
+commands:
+  enable:
+    desc: "Used to enter privilaged mode"
+    make:
+      cisco: enable
+      hpe: system-view
+  config:
+    desc: "Used to enter global config mode"
+    make:
+      cisco: conf t
+      hpe: system-view
