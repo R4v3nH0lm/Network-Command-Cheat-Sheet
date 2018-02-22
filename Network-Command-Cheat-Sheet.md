@@ -1,20 +1,9 @@
+# H1 Network-Command-Cheat-Sheet
 
-| Command       |
-| ------------- |
-- enable
-- description: Used to enter privilaged mode
+## H2 cisco 
 
-| Make | Cmd |
-|:----:|-----|
-| cisco | enable |
-| hpe | system-view |
+## H2 hpe 
 
-| Command       |
-| ------------- |
-- config
-- description: Used to enter global config mode
+## H2 palo alto networks 
 
-| Make | Cmd |
-|:----:|-----|
-| cisco | conf t |
-| hpe | system-view |
+
