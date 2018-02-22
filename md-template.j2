@@ -13,3 +13,13 @@
 {% endfor %}
 {% endif %}
 {% endfor %}
+
+
+
+# Network Command Cheat Sheet
+
+{% for key, value in devices.iteritems() %}
+{% if 'cmd' in value %}
+| cmd {{ value['cmd'] }} |
+{% endif %}
+{% endfor %}

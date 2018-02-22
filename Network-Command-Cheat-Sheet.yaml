@@ -10,3 +10,25 @@ commands:
     make:
       cisco: conf t
       hpe: system-view
+
+
+devices:
+  cisco:
+    enable:
+      desc: "Used to enter privilaged mode"
+      os: "cat-os", "IOS"
+      example:
+    conf t:
+      desc: "Used to enter global config mode"
+      os: "cat-os", "IOS"
+      example:
+  hpe:
+    system-view:
+      desc: "Used to enter global config mode"
+      os: "cat-os", "IOS"
+      example:
+  palo alto networks:
+    show system info:
+      desc: "Used to show basic info about mgmt config, software versions,  & uptime."
+      os: "pan-os"
+      example:
